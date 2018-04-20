@@ -1,27 +1,32 @@
 .ctr {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   margin-bottom: 1em;
   width: 55%;
+  text-align: center;
 }
 .btncenter {
   margin: auto;
 }
 #googleform {
-  padding-left: 461px;
-  padding-right: 0px;
   width: 100%;
+  margin: auto;
 }
 #googlecalendar {
-  padding-left: 598px;
-  padding-right: 0px;
   width: 100%;
+  margin: auto;
 }
 #Calendar {
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  margin: auto;
 }
 .fa-calendar-times {
   width:100%;
-  padding-left: 132px;
+}
+body {
+  width: 70%;
+  margin: auto;
+}
+.card {
+  margin: auto;
+  width: 100%;
 }
