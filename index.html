@@ -1,70 +1,117 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Browser tab-->
   <title>EclubTeam: Usfca</title>
+  <!--LINKS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/bootstrap.css"/>
-  <!-- <link rel="stylesheet" href="./css/bootstrap.css"/> -->
+  <link rel="stylesheet" href="./css/index.css"/>
 </head>
 
 <body>
-  <!--welcome-->
+  <!--Navigation-->
   <div id="welcomenavbarheader">
-
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="http://e-clubusfca.club/">E-club</a>
+      <span class="navbar-text">This channel is for club-wide communication and announcements.</span>
+    </nav>
   </div>
-  <!--welcome-->
+  <!--Navigation-->
 
   <!--club information-->
   <div id="info">
 
     <!---->
     <div id="welcome">
+      <!--welcome jumbotron-->
+      <div id="container">
+        <div class="jumbotron">
+          <h1 class="display-4">Welcome to E-club Usfca:</h1>
+          <p class="lead">Tech Central!</p>
+        </div>
+      </div>
+      <!--welcome jumbotron-->
+    </div>
+    <!---->
 
+    <!---->
+    <div id="about" class="ctr">
+      <div class="card text-center" style="width: 50rem">
+        <img class="card-img-top" src="./welcome.png"/>
+        <div class="card-body">
+          <p class="card-text">
+            Welcome to ECLUB! This year we're going to make Entrepreneurs club worthwhile and have an exciting year. Eclub = Fun + Business Ventures + Networking + Professional Leaders + Internships, etc.
+          </p>
+        </div>
+      </div>
     </div>
     <!---->
 
     <!--SXSW, entrepreneurs night, and meet the startups-->
-    <div id="activities">
-
+    <div id="activities" class="ctr">
+      <div class="card text-center" style="width: 50rem">
+        <img class="card-img-top" src="./pd-c-oce.png"/>
+        <div class="card-body">
+          <h3 class="card-title">Activities</h3>
+          <p class="card-text">
+            <p>LinkedIn Profiles</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">We will be having Career Services give a presentation and take professional headshots!</li>
+            </ul>
+            <p>Cover Letter</p>
+            <p>Resumes</p>
+            <p>Professional Emails</p>
+            <p>Business Attire</p>
+            <p>Competitions</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">USF Marketing Competition</li>
+            </ul>
+            <p>Office Visits</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Tour around the office, talk with professionals about their job!</li>
+            </ul>
+          </p>
+        </div>
+      </div>
     </div>
     <!---->
-
-    <!---->
-    <div id="googlecalendar">
-      <p>Google Calendar API Quickstart</p>
-      <!--Add buttons to initiate auth sequence and sign out-->
-      <button id="authorize-button" style="display: none;">Authorize</button>
-      <button id="signout-button" style="display: none;">Sign Out</button>
-      <pre id="content"></pre>
+    <div id="googleform" class="ctr">
+      <a class="btn btn-secondary ctr btncenter btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeFJZovGS2jh0rk92HTINBYKufmFxoO-5qpXjyAIVbes3DVfg/viewform?usp=sf_link">Join E-club</a>
     </div>
     <!---->
-
-    <!---->
-    <div id="about">
-
-    <div/>
-    <!---->
-
-    <div id="googleform">
-
+    <div id="googlecalendar" class="ctr">
+      <p>
+        E-club Event Calendar will be up soon!
+      </p>
+      <div id="Calendar">
+        <span class="fas fa-calendar-times"></span>
+      </div>
     </div>
-
+    <!---->
   </div>
   <!---->
 
   <!---->
   <div id="contactandcopyrightnavbarfooter">
-
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="navbar-brand">
+        <span class="fas fa-lg fa-instagram"></span>
+      </div>
+      <span class="navbar-text">Created for USFCA E-club 2018. Non-profit and non-commercial uses only.</span>
+    </nav>
   </div>
   <!---->
 
   <!---->
-  <script type="text/javascript" src="bootstrap"></script>
-  <script type="text/javascript" src="jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.js"></script>
+  <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
   <!-- <script type="text/javascript" src=""></script> -->
-  <script async defer src="https://apis.google.com/js/api.js"
-      onload="this.onload=function(){};handleClientLoad()"
-      onreadystatechange="if (this.readyState === 'complete') this.onload()">
-  </script>
   <!---->
 </body>
 </html>
